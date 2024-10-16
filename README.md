@@ -48,12 +48,17 @@ There are two ways to run JintDebugger:
 ### Using the executable
 
 1. Navigate to the directory containing the executable:
-   ```
-   cd JintDebugger\bin\Debug\net8.0
-   ```
+
 2. Run the executable with a test script:
    ```
-   JintDebugger.exe ..\..\..\..\test-scripts\test_file_operations.js
+   dotnet run --project JintDebugger.csproj -- test-scripts\test_file_operations.js  
+   ```
+   or
+   ```
+   cd bin\Debug\net8.0
+   ```
+   ```
+   .\JintDebugger.exe ..\..\..\test-scripts\test_file_operations.js
    ```
 
 Note: The above command assumes you're running from the executable's directory and uses a relative path to the test script. Adjust the path if necessary.
