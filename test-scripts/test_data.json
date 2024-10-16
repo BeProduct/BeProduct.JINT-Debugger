@@ -1,0 +1,6 @@
+{
+  "name": "Test User",
+  "age": 30,
+  "isActive": true,
+  "hobbies": ["reading", "coding", "gaming"]
+}
