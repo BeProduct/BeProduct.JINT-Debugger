@@ -1,6 +1,6 @@
-# JintDebugger
+# BeProduct JINT Debugger
 
-JintDebugger is a C# application that likely serves as a debugging tool for JavaScript code using the Jint library. Jint is a JavaScript interpreter for .NET, allowing you to run JavaScript code within a .NET environment.
+JINT Debugger is an application designed to facilitate debugging of BeProduct Workflow JavaScript code. It enables JavaScript execution, provides debugging capabilities, manages JavaScript file operations, and assists in handling and analyzing JavaScript errors.
 
 ## Project Structure
 
